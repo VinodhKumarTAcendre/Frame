@@ -1,7 +1,7 @@
 language: csharp
 solution: CSharpSeleniumFramework.sln
 install:
-  - nuget CSharpSeleniumFramework.sln
+  - nuget restore CSharpSeleniumFramework.sln
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Debug CSharpSeleniumFramework.sln
