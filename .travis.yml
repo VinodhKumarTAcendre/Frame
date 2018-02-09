@@ -2,7 +2,7 @@ language: csharp
 solution: CSharpSeleniumFramework.sln
 install:
   - nuget restore CSharpSeleniumFramework.sln
-  - nuget install NUnit.Runners -Version 3.8.0 -OutputDirectory testrunner
+  - nuget install NUnit.ConsoleRunner -Version 3.8.0 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Debug CSharpSeleniumFramework.sln
-  - mono ./testrunner/NUnit.Runners.3.8.0/tools/nunit-console.exe ./CSharpSeleniumFramework/bin/Debug/CSharpSeleniumFramework.dll
+  - mono ./testrunner/nunit.consolerunner.3.8.0/tools/nunit3-console.exe ./CSharpSeleniumFramework/bin/Debug/CSharpSeleniumFramework.dll
