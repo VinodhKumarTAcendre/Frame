@@ -1,0 +1,38 @@
+﻿<Table>
+  <CreateIssue>
+    <Project>TES</Project>
+    <Type>Epic</Type>
+    <TypeName>Epic Issue CSharp</TypeName>
+    <Summary>Created this from C Sharp</Summary>
+    <Description>Summary Description:Step 1: Launch the AppStep2: Login to the App</Description>
+    <Priority>High</Priority>
+    <Attachment>C:\Users\Administrator\Pictures\2017-06-23 at 11-17-47.png</Attachment>
+  </CreateIssue>
+  <CreateIssue>
+    <Project>TES</Project>
+    <Type>Task</Type>
+    <TypeName>Task Issue CSharp</TypeName>
+    <Summary>Created this from C Sharp</Summary>
+    <Description>Summary Description:Step 1: Launch the AppStep2: Login to the App</Description>
+    <Priority>High</Priority>
+    <Attachment>C:\Users\Administrator\Pictures\2017-06-23 at 11-17-47.png</Attachment>
+  </CreateIssue>
+  <CreateIssue>
+    <Project>TES</Project>
+    <Type>Story</Type>
+    <TypeName>Story Issue CSharp</TypeName>
+    <Summary>Created this from C Sharp</Summary>
+    <Description>Summary Description:Step 1: Launch the AppStep2: Login to the App</Description>
+    <Priority>Medium</Priority>
+    <Attachment>C:\Users\Administrator\Pictures\2017-06-23 at 11-17-49.png</Attachment>
+  </CreateIssue>
+  <CreateIssue>
+    <Project>TES</Project>
+    <Type>Bug</Type>
+    <TypeName>Bug Issue CSharp</TypeName>
+    <Summary>Created this from C Sharp</Summary>
+    <Description>Summary Description:Step 1: Launch the AppStep2: Login to the App</Description>
+    <Priority>Low</Priority>
+    <Attachment>C:\Users\Administrator\Pictures\2017-06-23 at 11-17-54.png</Attachment>
+  </CreateIssue>
+</Table>
