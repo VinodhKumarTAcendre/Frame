@@ -6,3 +6,10 @@ install:
 script:
   - xbuild /p:Configuration=Debug CSharpSeleniumFramework.sln
   - mono ./testrunner/NUnit.ConsoleRunner.3.8.0/tools/nunit3-console.exe ./CSharpSeleniumFramework/bin/Debug/CSharpSeleniumFramework.dll
+notifications:
+  email:
+    recipients:
+      - vinodhkumart@gmail.com
+      - vinodhkumar.t@testyantra.com
+    on_success: never # default: change
+    on_failure: always # default: always  

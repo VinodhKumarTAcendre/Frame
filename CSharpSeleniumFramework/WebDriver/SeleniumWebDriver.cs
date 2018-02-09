@@ -52,7 +52,7 @@ namespace CSharpSeleniumFramework.WebDriver
                         break;
 
                     case Constants.CHROME:
-                        newDriver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
+                        newDriver = new ChromeDriver();
                         newDriver.Navigate().GoToUrl(ConfigHelpers.GetUrl());
 
                         break;
