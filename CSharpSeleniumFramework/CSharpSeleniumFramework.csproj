@@ -154,6 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="JIRA\XMLFileText.xml" />
+    <Content Include="Resources\chromedriver.exe" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

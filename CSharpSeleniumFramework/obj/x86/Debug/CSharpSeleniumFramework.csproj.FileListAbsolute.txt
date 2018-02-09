@@ -108,7 +108,7 @@ D:\Delete\CSharpSeleniumFramework\bin\x86\Debug\Newtonsoft.Json.xml
 D:\Delete\CSharpSeleniumFramework\bin\x86\Debug\nunit.framework.xml
 D:\Delete\CSharpSeleniumFramework\bin\x86\Debug\WebDriver.xml
 D:\Delete\CSharpSeleniumFramework\bin\x86\Debug\WebDriver.Support.xml
-D:\Delete\CSharpSeleniumFramework\obj\x86\Debug\CSharpSeleniumFramework.csprojResolveAssemblyReference.cache
 D:\Delete\CSharpSeleniumFramework\obj\x86\Debug\CSharpSeleniumFramework.csproj.CoreCompileInputs.cache
 D:\Delete\CSharpSeleniumFramework\obj\x86\Debug\CSharpSeleniumFramework.dll
 D:\Delete\CSharpSeleniumFramework\obj\x86\Debug\CSharpSeleniumFramework.pdb
+D:\Delete\CSharpSeleniumFramework\obj\x86\Debug\CSharpSeleniumFramework.csprojResolveAssemblyReference.cache
