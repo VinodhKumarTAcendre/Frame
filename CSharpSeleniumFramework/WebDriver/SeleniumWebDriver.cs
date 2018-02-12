@@ -51,12 +51,11 @@ namespace CSharpSeleniumFramework.WebDriver
                         newDriver = new InternetExplorerDriver(new InternetExplorerOptions() { IgnoreZoomLevel = true }) { Url = ConfigHelpers.GetUrl() };
                         break;
 
-                    //case Constants.CHROME:
-                    //    string ExePath = CommonHelpers.BaseFolder() + "Resources";
-                    //    newDriver = new ChromeDriver(ExePath);
-                    //    newDriver.Navigate().GoToUrl(ConfigHelpers.GetUrl());
+                    case Constants.CHROME:
+                        newDriver = new ChromeDriver("/usr/local/bin/chromedriver");
+                        newDriver.Navigate().GoToUrl(ConfigHelpers.GetUrl());
 
-                    //    break;
+                        break;
 
                     case Constants.FIREFOX:
                         newDriver = new FirefoxDriver();
